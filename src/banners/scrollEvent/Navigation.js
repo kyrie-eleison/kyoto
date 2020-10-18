@@ -55,7 +55,7 @@ class Navigation extends React.Component{
 
         return(
             <div className="navigationElements">
-                {(scrollY >= 0.7*componentHeight)?
+                {(scrollY >= 0.9*componentHeight)?
                     htmlArray
                     :
                     <div className="loader">

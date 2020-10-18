@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Index.css';
+import './index.css';
 import KyotoPicture from './banners/KyotoPicture.js';
 import Map from './banners/Map.js';
 import Contents from './banners/Contents.js';
