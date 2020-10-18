@@ -1,0 +1,57 @@
+.picture{
+    display: block;
+    opacity: 1;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 30%;
+    width: 30%;
+
+    animation: pictureMove 2s linear;
+    animation-fill-mode: forwards;
+}
+
+.intro{
+    display: block;
+    opacity: 0;
+
+    font-size: 40px;
+    font-weight: 100;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: introMove 1s linear;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.source{
+    font-size: 12px;
+    font-weight: 30;
+}
+
+@keyframes pictureMove{
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+
+    100% {
+    opacity: 0.5;
+    }
+}
+
+@keyframes introMove{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}

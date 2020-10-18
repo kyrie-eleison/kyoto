@@ -1,0 +1,39 @@
+.mapGrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-column-gap: 20px;
+
+    height: 500px;
+    padding-top: 50px;
+}
+
+.streetMap{
+    display: block;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 80%;
+    width: 64%;
+}
+
+.mapIntro{
+    display: block;
+    position: relative;
+
+    font-size: 40px;
+    font-weight: 100;
+    
+    height: 100%;   
+}
+
+.mapIntro p{
+    position: relative;
+    top: 10%;
+}
+
+.mapSource{
+    font-size: 12px;
+    font-weight: 30;
+}

@@ -1,0 +1,10 @@
+.picturesElement{
+    width: 700px;
+    height: 60%;
+}
+
+.kiyomizudera,
+.heian,
+.ginkakuji{
+    height: auto;
+}

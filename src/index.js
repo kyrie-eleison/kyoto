@@ -1,17 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import KyotoPicture from './banners/KyotoPicture.js';
+import Map from './banners/Map.js';
+import Contents from './banners/Contents.js';
+
+class Index extends React.Component {
+
+    state = {
+            scrollY: 0,
+    };
+    
+    handleScroll(event){
+        let scrollY = document.documentElement.scrollTop;        
+        this.setState({scrollY: scrollY});
+    }
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.handleScroll.bind(this));
+    }
+
+    render(){
+        return(
+            <React.Fragment>
+                <KyotoPicture /> 
+                <Map scrollY={this.state.scrollY}/> 
+                <Contents scrollY={this.state.scrollY}/>
+            </React.Fragment>
+        );
+    }
+}
+
+export default Index;
+// ========================================
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Index />,
+    document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

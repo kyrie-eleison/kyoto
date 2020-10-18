@@ -1,0 +1,52 @@
+.navigationElements{
+    position: sticky;    
+    top: 30%;
+}
+
+
+.kiyomizuderaNavigation,
+.heianNavigation,
+.ginkakujiNavigation{
+    position: relative;
+  
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 10%;
+   
+}
+
+.locationName{
+    position: relative;
+    right: -25px;
+}
+
+.middle{
+    position: relative;
+    background-color: gray;
+
+    width: 5px;
+    height: 60px;
+
+    margin-left: 34.5%;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+/* .middle::after{
+    position: absolute;
+    transform: translateY(50px) translateX(-7px) rotate(90deg);
+    background-color: red;
+
+
+    border-top: 12px solid transparent;
+    border-left: 24px solid red;
+    border-bottom: 12px solid transparent;
+}
+ */
+
+  
