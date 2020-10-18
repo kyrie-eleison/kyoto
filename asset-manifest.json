@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kyoto/static/css/main.9fcd802d.chunk.css",
+    "main.js": "/kyoto/static/js/main.e1443f18.chunk.js",
+    "main.js.map": "/kyoto/static/js/main.e1443f18.chunk.js.map",
+    "runtime-main.js": "/kyoto/static/js/runtime-main.6706584c.js",
+    "runtime-main.js.map": "/kyoto/static/js/runtime-main.6706584c.js.map",
+    "static/js/2.2c5e3a7d.chunk.js": "/kyoto/static/js/2.2c5e3a7d.chunk.js",
+    "static/js/2.2c5e3a7d.chunk.js.map": "/kyoto/static/js/2.2c5e3a7d.chunk.js.map",
+    "index.html": "/kyoto/index.html",
+    "precache-manifest.d43b8444f9dd8bd7a114b1dc47b6109d.js": "/kyoto/precache-manifest.d43b8444f9dd8bd7a114b1dc47b6109d.js",
+    "service-worker.js": "/kyoto/service-worker.js",
+    "static/css/main.9fcd802d.chunk.css.map": "/kyoto/static/css/main.9fcd802d.chunk.css.map",
+    "static/js/2.2c5e3a7d.chunk.js.LICENSE.txt": "/kyoto/static/js/2.2c5e3a7d.chunk.js.LICENSE.txt",
+    "static/media/streetMap.png": "/kyoto/static/media/streetMap.8eadf828.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6706584c.js",
+    "static/js/2.2c5e3a7d.chunk.js",
+    "static/css/main.9fcd802d.chunk.css",
+    "static/js/main.e1443f18.chunk.js"
+  ]
+}
